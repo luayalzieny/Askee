@@ -1,0 +1,77 @@
+html{
+    font-family: 'Edu SA Beginner', cursive;
+}
+
+body{
+    background-color: #F9F2ED;
+
+}
+.navbar-main{
+    background-image: url('./../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center     ;
+    height: 600px;
+    width: 100%;
+}
+
+
+
+
+.inav{
+    font-size: 1.2rem;
+    color: white;
+    padding: 2%;
+
+}
+
+.feats{
+    text-align: center;
+    padding: 2%;
+}
+
+.cta{
+    background-color: #E04DB0;
+}
+
+.action{
+    text-align: center;
+    height: 200px;
+    
+}
+.action h2{
+    padding-top: 2%;
+color: white;
+}
+
+footer{
+    padding: 1%;
+    color: white;
+    text-align: center;
+    background-color: #E04DB0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/* signup */
+.snav{
+    background-color: #E04DB0;
+}
+
+.form{
+    background-color: #FFF6EA;
+    padding: 2%;
+    border-style: double;
+    border-radius: 20px;
+    border-color: #E04DB0;
+    width: 50%;
+    margin: 0 auto;
+    color:#7F8487;
+}
+.form-width{
+    width: 80%;
+    margin: 0 auto;
+
+}
