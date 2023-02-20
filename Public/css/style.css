@@ -1,12 +1,12 @@
 html{
-    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Edu SA Beginner', cursive;height: 100%
 }
 
 body{
-    background-color: #F9F2ED;
+    background-color: #F9F2ED;height: 100%;
 
 }
-.navbar-main{
+.banner{
     background-image: url('./../images/banner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,6 +15,9 @@ body{
     width: 100%;
 }
 
+.index-nav{
+    padding: 3%;   
+}
 
 
 
@@ -44,18 +47,17 @@ body{
 color: white;
 }
 
-footer{
-    padding: 1%;
-    color: white;
-    text-align: center;
-    background-color: #E04DB0;
-    position: fixed;
-    left: 0;
-    bottom: 0;
+footer {
     width: 100%;
-}
+    background-color: #E04DB0;
+    color: #fff; 
+    position: sticky;
+    top: 100vh;
+    place-items: center;
+    padding: 1rem; 
+    font-size: 1.2rem;}
 
-/* signup */
+/* signup/signin */
 .snav{
     background-color: #E04DB0;
 }
@@ -74,4 +76,16 @@ footer{
     width: 80%;
     margin: 0 auto;
 
+}
+
+.error{
+    display:block;
+    text-align: center;
+    color: #C21010;
+    background-color: #FF8B8B;
+    border-color: #FF8B8B;
+    width: 80%;
+    border-radius: 20px;
+    margin:0 auto;
+    padding: 1%;
 }
